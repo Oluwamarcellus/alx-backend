@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Task 0
+Task 0 module
+
 """
+
 from base_caching import BaseCaching
 
 
@@ -20,6 +22,6 @@ class BasicCache(BaseCaching):
 
     def get(self, key):
         """
-        Retrieves an item by key.
+        Retrieves an item by key
         """
         return self.cache_data.get(key, None)
